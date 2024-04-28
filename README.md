@@ -1,7 +1,7 @@
 # structuring-OCR-text
-Converts unstructured OCR text to structured Python dictionary
+## Converts unstructured OCR text to structured Python dictionary
 
-The code I have written, accomplishes the following:
+## The code I have written, accomplishes the following:
 
 Reads through all files one by one, looking for occurrences of float numbers.
 
@@ -13,14 +13,14 @@ Lastly, I have filtered data and added it to a dictionary as required.
 
 I have also assumed the files that are going to read as source data are present in the current working directory of the user.
 
-Helper Functions I used: 
+### Helper Functions I used: 
 a) Time pattern matching 
 b) Date pattern matching 
 c) float detection 
 d) file reading 
 e) searching in json file for reading through X1.json
 
-Some things I have not been able to accomplish due to the shortage of time:
+## Some things I have not been able to accomplish due to the shortage of time:
 
 Correct for OCR errors - I had planned on utilising Levenshtein Distance to correct for OCR errors.
 
