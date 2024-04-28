@@ -1,7 +1,7 @@
 # structuring-OCR-text
 ## Converts unstructured OCR text to structured Python dictionary
 
-##Initial Data Analysis: 
+## Initial Data Analysis: 
 
 Parameter names are listed at the start of every line (for most cases). For example: 'RCC (3.9-5.8) x10°12 /L 4.1 3.7 4.0 3.8'
 
