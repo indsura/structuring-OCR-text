@@ -20,9 +20,9 @@ Reads through all files one by one and saves it in a variable 'all_data'
 	Occurrences of float numbers indicating 'value' key of test results
 	
 	Parameter names 
-		###### While reading a line, if a parameter name is found in the first word of the line, it appends that line to the data, assuming that it contains important test result values and units in the same line. 
+		While reading a line, if a parameter name is found in the first word of the line, it appends that line to the data, assuming that it contains important test result values and units in the same line. 
 		
-		###### Implicit assumption: that the parameter name is listed as the starting word in the line Potential downside is that it will disregard any sentence containing test result values if that sentence does not start with listing which parameter is being tested for, hence impacting accuracy. Additionally, if parameter name and parameter value are in different lines, my code will disregard those values.
+		Implicit assumption: that the parameter name is listed as the starting word in the line Potential downside is that it will disregard any sentence containing test result values if that sentence does not start with listing which parameter is being tested for, hence impacting accuracy. Additionally, if parameter name and parameter value are in different lines, my code will disregard those values.
 	
 
 #### To look for latest data for a parameter: it considers the last value in the line / sentence as the latest parameter.
